@@ -1,0 +1,91 @@
+import numpy as np
+import pandas as pd
+import math
+'''
+question1
+for i in range(5):
+    print("mekkaoui mohamed",i)
+
+list=[]
+
+for i in range(2000,3201,1):
+    if i%7==0 and i%5!=0:
+        list.append(i)
+print(list)
+
+question 2
+
+def fact(n):
+     f=1
+     while n>0:
+         f=f*n
+         n=n-1
+     return f
+
+num=int(input("donner un nombre"))
+fact=fact(num)
+print("le factoriale de "+str(num)+" est egale a :"+ str(fact))
+
+question 3
+
+n=int(input("donner un nombre"))
+dic={}
+for i in range(1,n+1,1):
+    dic[i]=i*i
+
+print(dic)
+
+question 4
+
+b=True
+while b:
+    string=input("donner une chaine de caractere")
+    if string!="":
+        while b:
+            n=int(input("donner l'indice du car a supprimer"))
+            if n<=len(string):
+                b=False
+
+
+string2=""
+for i in range(0,len(string),1):
+    if i!=n:
+        string2=string2+string[i]
+
+
+print("la nouvelle chaine apres suppression est  "+string2)
+
+question 5
+
+a=[[0,1],[2,3],[4,5]]
+array=np.array(a)
+print(array)
+list=array.tolist()
+print("conversion")
+print(list)
+question 6
+l=[0,1,2]
+l2=[2,1,0]
+ar=np.array(l)
+ar2=np.array(l2)
+print(ar)
+print(ar2)
+print(np.cov(ar,ar2))
+
+question 7
+
+C=50
+H=30
+list=[]
+d=input("donner un nombre ou plusieur nombre separer par des virgule")
+list=d.split(",")
+n=len(list)
+list2=[]
+for i in range(n):
+    D=int(list[i])
+    exp=(2*C*D)/H
+    exp=round(exp**0.5)
+    list2.append(exp)
+
+print(list2)
+'''
