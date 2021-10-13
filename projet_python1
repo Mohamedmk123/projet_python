@@ -3,8 +3,6 @@ import pandas as pd
 import math
 '''
 question1
-for i in range(5):
-    print("mekkaoui mohamed",i)
 
 list=[]
 
